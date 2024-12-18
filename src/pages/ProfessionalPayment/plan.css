@@ -1,0 +1,48 @@
+.card {
+  display: block;
+  min-height: 100%;
+}
+.card-body {
+  background-color: #fff;
+  padding: 30px;
+}
+.card-body > h1,
+.plan-value,
+.period,
+.trial-period,
+.benefits-title {
+  text-align: center;
+}
+.plan-title {
+  font-size: 3rem;
+  padding: 20px 0 50px 0;
+  color: #007F7B;
+}
+.plan-value {
+  font-size: 6rem;
+  position: relative;
+}
+.plan-value > span {
+  color: #007F7B;
+  font-size: 2rem;
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+}
+.trial-period{
+  font-size: 2rem;
+  color: #007F7B;
+  margin-bottom: 50px;
+}
+.benefits-title {
+  padding: 80px 0 10px 0;
+  color: #007F7B;
+  font-size: 2rem;
+}
+.benefits-list {
+  text-align: center;
+}
+.benefits-item {
+  margin: 20px 0;
+  font-size: 1rem;
+}
